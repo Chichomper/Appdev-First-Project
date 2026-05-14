@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vibe Calculator</string>
+    <string name="hint_select">Add some vibes to begin…</string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Alchemy of Vibes"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A non-numerical calculator. Combine sensory inputs to generate a social outcome."
+        android:textSize="15sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KNOWN COMBINATIONS"
+        android:textSize="11sp"
+        android:letterSpacing="0.12"
+        android:textColor="@color/text_muted"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Combo rows -->
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="☕ + 🌧️  →  A cozy deadline."
+        android:textSize="15sp" android:padding="10dp"
+        android:background="@color/combo_bg" android:layout_marginBottom="6dp"
+        android:textColor="@color/text_primary"/>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="💃 + 🤐  →  A masked ball."
+        android:textSize="15sp" android:padding="10dp"
+        android:background="@color/combo_bg" android:layout_marginBottom="6dp"
+        android:textColor="@color/text_primary"/>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="🔥 + ✨  →  Main character energy."
+        android:textSize="15sp" android:padding="10dp"
+        android:background="@color/combo_bg" android:layout_marginBottom="6dp"
+        android:textColor="@color/text_primary"/>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="🌙 + ☕  →  Late-night spiral."
+        android:textSize="15sp" android:padding="10dp"
+        android:background="@color/combo_bg" android:layout_marginBottom="6dp"
+        android:textColor="@color/text_primary"/>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="🎲 + 🌧️  →  Chaotic weather forecast."
+        android:textSize="15sp" android:padding="10dp"
+        android:background="@color/combo_bg" android:layout_marginBottom="6dp"
+        android:textColor="@color/text_primary"/>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="💃 + ✨ + 🔥  →  Unstoppable."
+        android:textSize="15sp" android:padding="10dp"
+        android:background="@color/combo_bg" android:layout_marginBottom="6dp"
+        android:textColor="@color/text_primary"/>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="5+ vibes  →  Social overload!"
+        android:textSize="15sp" android:padding="10dp"
+        android:background="@color/combo_bg" android:layout_marginBottom="16dp"
+        android:textColor="@color/text_primary"/>
+
+</LinearLayout>
